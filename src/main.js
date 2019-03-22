@@ -22,9 +22,13 @@ $(document).ready(function () {
     let userMarsYearsLeft = userInfo.marsYearsLeft(userMarsAge, userInputtedLifeExpectancy);
     let userJupiterAge = userInfo.jupiterYearsOld(userEarthAge);
     let userJupiterYearsLeft = userInfo.jupiterYearsLeft(userJupiterAge, userInputtedLifeExpectancy);
-    console.log(userMercuryYearsLeft);
-    console.log(userVenusYearsLeft);
-    console.log(userMarsYearsLeft);
-    console.log(userJupiterYearsLeft);
+    $("#mercuryAge").text(`You are ${userMercuryAge} years old on Mercury`);
+    $("#mercuryYearsLeft").text(userMercuryYearsLeft);
+    $("#venusAge").text(`You are ${userVenusAge} years old on Venus`);
+    $("#venusYearsLeft").text(userVenusYearsLeft);
+    $("#marsAge").text(`You are ${userMarsAge} years old on Mars`);
+    $("#marsYearsLeft").text(userMarsYearsLeft);
+    $("#jupiterAge").text(`You are ${userJupiterAge} years old on Jupiter`);
+    $("#jupiterYearsLeft").text(userJupiterYearsLeft);
   });
 });
