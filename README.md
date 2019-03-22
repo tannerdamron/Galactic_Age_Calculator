@@ -45,9 +45,12 @@ Download Node.js
 * Open in preferred text editor to see all code used
 * To run application:
 * > Navigate to root directory in terminal
-* > Run "$ npm install" to install all dependencies in the package.JSON file
-* > Run "$ npm run build" to build application
-* > Run "$ npm run start" to start application
+* > Run the command "$ npm install" to install all dependencies in the package.JSON file
+* > Run the command "$ npm run build" to build application
+* > Run the command "$ npm run start" to start application
+* To run tests on application:
+* > Navigate to root directory in terminal
+* > Run the command "npm run test"
 
 ### Known Bugs
 * No Known Bugs
