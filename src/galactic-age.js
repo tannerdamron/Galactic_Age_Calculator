@@ -4,9 +4,13 @@ export default class UserInfo {
     this.lifeExpectancy = lifeExpectancy;
   }
 
-  mercuryLogic(yearsOld, lifeExpectancy) {
+  mercuryYearsOld(yearsOld) {
     this.yearsOld = yearsOld * .24;
-    this.lifeExpectancy = (lifeExpectancy * .24) - yearsOld;
-    return this;
+    return this.yearsOld;
+  }
+
+  mercuryYearsLeft(mercuryYearsOld, lifeExpectancy) {
+    this.lifeExpectancy = (lifeExpectancy * .24) - mercuryYearsOld;
+    return this.lifeExpectancy;
   }
 }
