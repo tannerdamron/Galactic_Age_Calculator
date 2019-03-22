@@ -14,6 +14,13 @@ $(document).ready(function () {
     const userBirthDay = parseInt(userBirthSplit[2]);
     userInfo = new UserInfo(userBirthYear, userBirthMonth, userBirthDay, userInputtedLifeExpectancy);
     let userEarthAge = userInfo.getUserAge();
-    console.log(userEarthAge);
+    let userMercuryAge = userInfo.mercuryYearsOld(userEarthAge);
+    let userMercuryYearsLeft = userInfo.mercuryYearsLeft(userMercuryAge, userInputtedLifeExpectancy);
+    let userVenusAge = userInfo.venusYearsOld(userEarthAge);
+    let userVenusYearsLeft = userInfo.venusYearsLeft(userVenusAge, userInputtedLifeExpectancy);
+    console.log(userMercuryAge);
+    console.log(userMercuryYearsLeft);
+    console.log(userVenusAge);
+    console.log(userVenusYearsLeft);
   });
 });

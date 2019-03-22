@@ -26,8 +26,10 @@ export default class UserInfo {
 
   mercuryYearsLeft(mercuryYearsOld, lifeExpectancy) {
     let pastLifeExpectancy = Math.abs(this.lifeExpectancy).toFixed(1);
+    console.log(pastLifeExpectancy);
+    console.log(lifeExpectancy);
     this.lifeExpectancy = (lifeExpectancy * .24) - mercuryYearsOld;
-    if (pastLifeExpectancy < 0 ) {
+    if (this.lifeExpectancy < 0 ) {
       return `You haved lived ${pastLifeExpectancy} Mercury years past Mercury life expectancy`;
     }
     return this.lifeExpectancy;
@@ -41,7 +43,7 @@ export default class UserInfo {
   venusYearsLeft(venusYearsOld, lifeExpectancy) {
     let pastLifeExpectancy = Math.abs(this.lifeExpectancy).toFixed(1);
     this.lifeExpectancy = (lifeExpectancy * .62) - venusYearsOld;
-    if (pastLifeExpectancy < 0) {
+    if (this.lifeExpectancy < 0 ) {
       return `You haved lived ${pastLifeExpectancy} Mercury years past Mercury life expectancy`;
     }
     return this.lifeExpectancy;
@@ -55,7 +57,7 @@ export default class UserInfo {
   marsYearsLeft(marsYearsOld, lifeExpectancy) {
     let pastLifeExpectancy = Math.abs(this.lifeExpectancy).toFixed(1);
     this.lifeExpectancy = (lifeExpectancy * 1.88) - marsYearsOld;
-    if (pastLifeExpectancy < 0) {
+    if (this.lifeExpectancy < 0 ) {
       return `You haved lived ${pastLifeExpectancy} Mercury years past Mercury life expectancy`;
     }
     return this.lifeExpectancy;
@@ -69,7 +71,7 @@ export default class UserInfo {
   jupiterYearsLeft(jupiterYearsOld, lifeExpectancy) {
     let pastLifeExpectancy = Math.abs(this.lifeExpectancy).toFixed(1);
     this.lifeExpectancy = (lifeExpectancy * 11.86) - jupiterYearsOld;
-    if (pastLifeExpectancy < 0) {
+    if (this.lifeExpectancy < 0 ) {
       return `You haved lived ${pastLifeExpectancy} Mercury years past Mercury life expectancy`;
     }
     return this.lifeExpectancy;
