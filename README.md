@@ -19,16 +19,16 @@ This application lets the user enter their age in years and will return their ag
 * > Output: "You are 533.7 years old."
 * User can enter average life expectancy for their demographic and gets back an amount of years left (roughly) on Mercury
 * > Input: "78.69"
-* > Output: "You have 8.0856 Mercury years left to live."
+* > Output: "You have 8.1 Mercury years left to live."
 * User can enter average life expectancy for their demographic and gets back an amount of years left (roughly) on Venus
 * > Input: "78.69"
-* > Output: ""You have 20.8878 Venus years left to live."
+* > Output: ""You have 20.9 Venus years left to live."
 * User can enter average life expectancy for their demographic and gets back an amount of years left (roughly) on Mars
 * > Input: "78.69"
-* > Output: "You have 63.3372 Mars years left to live."
+* > Output: "You have 63.3 Mars years left to live."
 * User can enter average life expectancy for their demographic and gets back an amount of years left (roughly) on Jupiter
 * > Input: "78.69"
-* > Output: "You have 399.5634 Jupiter years left to live."
+* > Output: "You have 399.6 Jupiter years left to live."
 
 
 ### Setup Instructions
