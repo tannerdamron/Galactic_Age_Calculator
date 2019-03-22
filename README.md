@@ -28,7 +28,7 @@ This application lets the user enter their age in years and will return their ag
 * > Output: "You have 63.3 Mars years left to live."
 * User can enter average life expectancy for their demographic and gets back an amount of years left (roughly) on Jupiter
 * > Input: "78.69"
-* > Output: "You have 399.6 Jupiter years left to live."
+* > Output: "You have 399.5 Jupiter years left to live."
 
 
 ### Setup Instructions
