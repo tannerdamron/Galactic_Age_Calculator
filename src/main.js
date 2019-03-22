@@ -1,6 +1,7 @@
-import UserInfo from "../src/galactic-age"
+import UserInfo from "../src/galactic-age";
 import $ from 'jquery';
 import 'bootstrap';
+import './styles.css';
 
 $(document).ready(function () {
   $("#galacticForm").submit(function(event){
