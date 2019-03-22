@@ -12,9 +12,15 @@
       <h1>Welcome to the Super Galactic Age Calculator!</h1>
     </div>
     <div id="galacticForm">
-      <label for="birthDateInput">Enter your birthday</label>
-      
+      <form id="galacticAgeForm">
+        <label for="userBirthdayInput">Enter your birthday:</label>
+        <input id="userBirthdayInput" type="date"></input>
+        <label for="lifeExpectancyInput">Enter average life expectancy:</label>
+        <input id="lifeExpectancyInput" type="number"></input>
+        <button id="userInfoButton" type="submit" class="btn btn-large"></button>
+      </form>
     </div>
+    <div id="result"></div>
   </div>
 </body>
 </html>

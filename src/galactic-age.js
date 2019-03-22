@@ -6,6 +6,11 @@ export default class UserInfo {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  splitUserBirthday(userBirthday) {
+    let birthdaySplit = userBirthday.split("-");
+    return birthdaySplit;
+  }
+
   getUserAge() {
     let userBirthday = new Date(this.birthYear, this.birthMonth, this.birthDay);
     let currentDate = new Date();
