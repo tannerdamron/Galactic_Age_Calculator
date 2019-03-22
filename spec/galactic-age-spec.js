@@ -1,8 +1,8 @@
 import UserInfo from "../src/galactic-age";
 
-describe('UserInfo', function() {
+describe('UserInfo', function () {
 
-  it('should test for taking in users year born', function(){
+  it('should test for taking in users year born', function () {
     let userInfoTest = new UserInfo("1974", "03", "20", "78.69");
     expect(userInfoTest.birthYear).toEqual("1974");
   });
@@ -22,7 +22,7 @@ describe('UserInfo', function() {
     expect(userInfoTest.lifeExpectancy).toEqual("78.69");
   });
 
-  it('should test for getting users age based off of birthdate and current date', function() {
+  it('should test for getting users age based off of birthdate and current date', function () {
     let userInfoTest = new UserInfo("1974", "03", "20", "78.69");
     expect(userInfoTest.getUserAge()).toEqual(45);
   })

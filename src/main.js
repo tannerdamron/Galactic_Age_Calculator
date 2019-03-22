@@ -18,9 +18,13 @@ $(document).ready(function () {
     let userMercuryYearsLeft = userInfo.mercuryYearsLeft(userMercuryAge, userInputtedLifeExpectancy);
     let userVenusAge = userInfo.venusYearsOld(userEarthAge);
     let userVenusYearsLeft = userInfo.venusYearsLeft(userVenusAge, userInputtedLifeExpectancy);
-    console.log(userMercuryAge);
+    let userMarsAge = userInfo.marsYearsOld(userEarthAge);
+    let userMarsYearsLeft = userInfo.marsYearsLeft(userMarsAge, userInputtedLifeExpectancy);
+    let userJupiterAge = userInfo.jupiterYearsOld(userEarthAge);
+    let userJupiterYearsLeft = userInfo.jupiterYearsLeft(userJupiterAge, userInputtedLifeExpectancy);
     console.log(userMercuryYearsLeft);
-    console.log(userVenusAge);
     console.log(userVenusYearsLeft);
+    console.log(userMarsYearsLeft);
+    console.log(userJupiterYearsLeft);
   });
 });
